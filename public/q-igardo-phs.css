@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@200;300;400;500;600;700&display=swap');
+*{
+
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+     font-family: 'Baloo 2', sans-serif;
+}
+body{
+   
+    margin: auto;
+    margin-top: auto;
+    animation: cambia-color 20s linear infinite;
+   
+     background: linear-gradient(155deg, rgba(245, 206, 206, 0.6), #D9C3FA, rgba(189, 195, 250, 0.7));
+    background-size: 100%;
+}
+@keyframes cambia-color{
+    0% {
+        background-position: 0%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    100% {
+        background-position: 0%, 100%;
+    }
+}
+  overflow: hidden;
+}
+::selection{
+      animation: cambia-color 10s linear infinite;
+    background: -webkit-linear-gradient(left, #7a26dd, #e80808);
+    background-size: 400% 400%;
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: transparent;
+  border-radius: 10px;
+
+
+}
+.wrapper .title{
+  height: 170px;
+  background: transparent;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+ 
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  color: #fff;
+  border-radius: 5px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background: transparent; 
+  border: 0px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #fff;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+form .row input::placeholder{
+  color: #fff;
+  opacity: 0.4;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px
+
+  opacity: 1;
+  background:
+rgba( 74, 74, 74, 0.1 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 8px );
+-webkit-backdrop-filter:
+blur( 8px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0.7;
+  
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.7;
+  background:
+rgba( 74, 74, 74, 0.1 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 11px );
+-webkit-backdrop-filter:
+blur( 11px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+}
+form .button input:hover{
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #fff;
+  opacity: 0.9;
+}
+.wrapper form .signup-link a{
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}

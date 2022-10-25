@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@300;400;500;600;700&display=swap');
+
+
+* {
+
+    text-decoration: none;
+    font-family: 'Baloo 2', sans-serif;
+ 
+}
+html, body {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+    background: linear-gradient(155deg, rgba(245, 206, 206, 0.6), #D9C3FA, rgba(189, 195, 250, 0.7));
+}
+html .form-container, body .form-container {
+  position: relative;
+  max-width: auto;
+  min-width: 370px;
+  max-height: auto;
+  min-height: 550px;
+  background: transparent;
+  border-radius: 0px;
+
+}
+html .form-container p, body .form-container p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  font-weight: 700;
+  transform: translateX(-50%);
+  font-family: "Kaushan Script", cursive;
+  font-size: 3.5rem;
+  background: -webkit-linear-gradient(-45deg, #444C57, #1C1F24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+html .form-container .facebook-connect, body .form-container .facebook-connect {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #3b5998;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 50%;
+  bottom: 38%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 50px;
+  border-radius: 14px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 10px 20px rgba(136, 140, 205, 0.3);
+  border: 2px solid #3b5998;
+  transition: all 0.2s linear;
+  user-select: none;
+  cursor: pointer;
+}
+html .form-container .facebook-connect:hover, body .form-container .facebook-connect:hover {
+  background-color: rgba(68, 92, 143, 0.2);
+}
+html .form-container .facebook-connect:active, body .form-container .facebook-connect:active {
+  box-shadow: 0 0px 0px rgba(136, 140, 205, 0);
+}
+html .form-container form, body .form-container form {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  user-select: none;
+}
+html .form-container form input, html .form-container form button, body .form-container form input, body .form-container form button {
+  width: 60%;
+  height: 50px;
+  transform: translateX(-50%);
+  border-radius: 14px;
+  background: linear-gradient(165deg, rgba(245, 206, 206, 0.3), rgba(189, 195, 250, 0.2));
+  background-color: #E7E7FF;
+  box-shadow: 0 10px 20px rgba(136, 140, 205, 0.3);
+  outline: none;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.2s linear;
+}
+html .form-container form input:hover, html .form-container form button:hover, body .form-container form input:hover, body .form-container form button:hover {
+  box-shadow: 0 0px 0px rgba(136, 140, 205, 0.3), inset 0 0px 10px rgba(136, 140, 205, 0);
+  cursor: pointer;
+}
+html .form-container form input:active, html .form-container form button:active, body .form-container form input:active, body .form-container form button:active {
+  box-shadow: 0 0px 0px rgba(136, 140, 205, 0), inset 0 6px 8px rgba(136, 140, 205, 0.3);
+}
+html .form-container form input[type=text]:focus, html .form-container form input[type=password]:focus, body .form-container form input[type=text]:focus, body .form-container form input[type=password]:focus {
+  box-shadow: 0 0px 0px rgba(136, 140, 205, 0), inset 0 6px 8px rgba(136, 140, 205, 0.3);
+}
+html .form-container form input[type=text], body .form-container form input[type=text] {
+  position: relative;
+  left: 50%;
+  top: 10%;
+}
+html .form-container form input[type=password], body .form-container form input[type=password] {
+  position: relative;
+  left: 50%;
+  top: 15%;
+}
+html .form-container form input[type=button]:active, body .form-container form input[type=button]:active {
+  box-shadow: 0 0px 0px rgba(136, 140, 205, 0), inset 0 6px 8px rgba(136, 140, 205, 0.3);
+}
+html .form-container form .submit, body .form-container form .submit {
+  position: relative;
+  width: 32%;
+  right: 18%;
+  top: 0%;
+  padding-left: 0;
+}
+html .form-container form .register, body .form-container form .register {
+  position: relative;
+  left: 67%;
+  top: 20%;
+  width: 30%;
+  padding-left: 0;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
